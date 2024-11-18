@@ -17,9 +17,9 @@ export const createCamp = async(prevState,formData) => {
 export const fetchCamps = async() => {
     //prisma.camp.findMany({})
     const camps = [
-        { id: 1, title: 'Camp 1', location: 'Home' },
-        { id: 2, title: 'Camp 2', location: 'bangkok' },
-        { id: 3, title: 'Camp 3', location: 'house' },
+        { id: 1, title: 'test1', location: 'Home' },
+        { id: 2, title: 'test2', location: 'bangkok' },
+        { id: 3, title: 'test3', location: 'house' },
     ]
     return camps
 }
