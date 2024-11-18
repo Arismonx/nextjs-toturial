@@ -1,12 +1,15 @@
 import React from 'react'
+import Counter from '../coponents/Counter/page'
 
 const info = () => {
   console.log('info page')
   return (
     <div>
-      <h1>pageinfo</h1>
+      <Counter />
     </div>
   )
 }
 
 export default info
+
+ 
