@@ -15,6 +15,9 @@ const Navbar = () => {
                     <li>
                         <Link href="/info">Info</Link>
                     </li>
+                    <li>
+                        <Link href="/camp">Camp</Link>
+                    </li>
                 </ul>
                 <div className='flex space-x-4'>
                     <Link href="/login">Login</Link>
