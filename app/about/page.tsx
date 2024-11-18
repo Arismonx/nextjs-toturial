@@ -8,14 +8,21 @@ const fetchTodos = async () => {
     return data;
 }
 
+type Data = {
+    id: String;
+    completed: boolean;
+    title: String;
+    userId: number;
+}
+
 const AboutPage = async () => {
-    const data = await fetchTodos()
+    const data:Data[] = await fetchTodos()
     console.log(data)
     return (
         <div>
             <h1>About</h1>
             {
-                data.map((item:any,index:number)=>{
+                data.map((item,index)=>{
                     return <li key={index}>{item.title}</li>
                 })
             }

@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 
-const error = ({error}:{error:any}) => {
+const error = ({error}:{error:Error}) => {
     console.log('test',error)
   return (
     <div>

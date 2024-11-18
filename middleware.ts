@@ -6,5 +6,5 @@ export const middleware = (req:NextResponse) => {
 }
 
 export const config = {
-    matcher: ['/about/:path*','/camp/:path*'],
+    matcher: ['/info/:path*']
 }
