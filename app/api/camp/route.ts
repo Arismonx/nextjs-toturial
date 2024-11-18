@@ -8,6 +8,6 @@ export const GET = async(req:NextResponse) => {
     // console.log(req)
 
     const camps = await fetchCamps()
-    return  Response.json({ camps })
-    // return NextResponse.redirect(new URL('/',req.url))
+    // return  Response.json({ camps })
+    return NextResponse.redirect(new URL('/',req.url))
 }
